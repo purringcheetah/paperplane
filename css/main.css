@@ -1,0 +1,209 @@
+@import url(reset.css);
+
+body
+{
+    background: #fff url(../images/bg.png) repeat;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #000;
+    text-align: center;
+}
+
+a
+{
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: #333;
+}
+
+h1 a, h1 a:hover
+{
+    text-decoration: none;
+    color: #000;
+}
+
+#bg
+{
+    background: url(../images/cat.png) left bottom no-repeat;
+}
+
+#page
+{
+    width: 1200px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#header h1
+{
+    display: none;
+}
+
+#header
+{
+    padding: 0px;
+    height: 386px;
+}
+
+#menu
+{
+    margin: 0px 0px 50px 150px;
+}
+
+#menu-header
+{
+    
+}
+
+#menu-content
+{
+    
+}
+
+#menu-content ul
+{
+    
+}
+
+#menu-content li, #menu-content a
+{
+    float: left;
+    height: 64px;
+    display: block;
+}
+
+#menu-content ul li a span
+{
+    display: none;
+}
+
+#menu-content a.overview
+{
+    width: 187px;
+    background: url(../images/menu-overview.png) no-repeat;
+}
+
+#menu-content a.screenshots
+{
+    width: 249px;
+    background: url(../images/menu-screenshots.png) no-repeat;
+}
+
+#menu-content a.video
+{
+    width: 112px;
+    background: url(../images/menu-video.png) no-repeat;
+}
+
+#menu-content a.download
+{
+    width: 200px;
+    background: url(../images/menu-download.png) no-repeat;
+}
+
+#menu-content a.team
+{
+    width: 119px;
+    background: url(../images/menu-team.png) no-repeat;
+}
+
+#menu-content a:hover
+{
+    background-position: 0px -64px;
+}
+
+#menu-footer
+{
+    clear: both;
+}
+
+#content
+{
+    clear: both;
+    margin: 0px 200px 0px 200px;
+}
+
+#content h1
+{
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+#content h1 a span
+{
+    display: none;
+}
+
+#content p, #content table
+{
+    text-align: justify;
+    margin: 0px 0px 1.5em 0px;
+    line-height: 1.2em;
+}
+
+#content ul
+{
+    list-style-type: square;
+    margin: 0px 0px 1em 2em;
+}
+
+#content li
+{
+    margin: 0.5em 0px;
+}
+
+#content img
+{
+    padding: 0px 20px 20px 0px;
+}
+
+#content table.team td
+{
+    padding: 0px 20px 10px 0px;
+}
+
+#content table.team td.name
+{
+    font-weight: bold;
+}
+
+#content .download
+{
+    font-size: 1.2em;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+#content .download .thanks
+{
+    font-size: 0.6em;
+}
+
+#content .download img
+{
+    vertical-align: middle;
+}
+
+#footer
+{
+    font-size: 0.8em;
+    color: #fff;
+    background: url(../images/footer.gif) no-repeat;
+    height: 22px;
+    padding: 16px 0px 0px 0px;
+    text-align: center;
+}
+
+#footer a
+{
+    color: #fff;
+}
+
+#footer a:hover
+{
+    color: #c0c0c0;
+}
